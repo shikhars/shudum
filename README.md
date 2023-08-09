@@ -18,6 +18,8 @@ Shudum is a blog template inspired by the Netflix Tudum blog
 ### Version
 
 - Current Version: v0.0.1
+- Shudum is currently only optimized for desktop
+- Responsive design coming soon
 - Note: This is a pre-release version. This version should not be considered production-ready.
 
 
