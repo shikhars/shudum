@@ -1,0 +1,30 @@
+{
+  "name": "shudum",
+  "version": "1.0.0",
+  "description": "Shudum is a Sass-ier version of Netflix Tudum style blog template",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "shx": "^0.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikhars/flixpedia.git"
+  },
+  "keywords": [],
+  "author": "Shikhar Srivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikhars/flixpedia/issues"
+  },
+  "homepage": "https://github.com/shikhars/flixpedia#readme",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}
