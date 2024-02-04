@@ -10,7 +10,6 @@ Shudum is a blog template inspired by the Netflix Tudum blog
 ## Table of Contents
 
 - [Version](#version)
-- [Links](#links)
 - [Built with](#built-with)
 - [Build](#build)
 
@@ -24,7 +23,6 @@ Shudum is a blog template inspired by the Netflix Tudum blog
 ### Links
 
 - GitHub URL: https://github.com/shikhars/shudum
-- Live Demo URL: https://shudum.netlify.app/
 
 
 ### Built with
