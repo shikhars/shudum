@@ -4,7 +4,8 @@
   "description": "Shudum is a Sass-ier version of Netflix Tudum style blog",
   "scripts": {
     "watch-sass": "sass --watch src/scss:css",
-    "build-css": "sass src/scss:css && purgecss --config purgecss.config.js --output final"
+    "build-css": "sass src/scss:css && purgecss --config purgecss.config.js --output final",
+    "build": "npm run watch-sass && npm run build-css"
   },
   "repository": {
     "type": "git",
