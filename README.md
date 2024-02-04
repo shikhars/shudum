@@ -5,7 +5,7 @@ Shudum is a Sass-ier version of Netflix Tudum style blog template
 
 ## About Shudum
 
-Shudum is a blog template inspired by the Netflix Tudum blog
+Shudum is an experimental blog template inspired by the Netflix Tudum blog. You can use it to start your own Netflix style blog. The current version contains only the Homepage design. Future versions will contain internal pages and a custom Content Management System (CMS) to write and publish blog posts.
 
 ## Table of Contents
 
