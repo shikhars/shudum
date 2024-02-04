@@ -29,10 +29,8 @@
     "url": "https://github.com/shikhars/flixpedia/issues"
   },
   "homepage": "https://github.com/shikhars/flixpedia#readme",
-  "dependencies": {
-    "parcel": "^2.8.3"
-  },
   "devDependencies": {
+    "dart-sass": "^1.25.0",
     "purgecss": "^5.0.0"
   }
 }
