@@ -1,30 +1,37 @@
 {
   "name": "shudum",
-  "version": "1.0.0",
-  "description": "Shudum is a Sass-ier version of Netflix Tudum style blog template",
+  "version": "0.1.0",
+  "description": "Shudum is a Sass-ier version of Netflix Tudum style blog",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
-    "prebuild": "shx rm -rf dist/*",
-    "build": "parcel build ./src/index.html --public-url ./"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0",
-    "shx": "^0.3.2"
+    "watch-sass": "sass --watch src/scss:css",
+    "build-css": "sass src/scss:css && purgecss --config purgecss.config.js --output final"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shikhars/flixpedia.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Netflix",
+    "Tudum",
+    "blog template",
+    "entertainment",
+    "media streaming",
+    "UI design",
+    "SCSS",
+    "movie blog",
+    "TV show blog",
+    "entertainment blog"
+  ],
   "author": "Shikhar Srivastava",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shikhars/flixpedia/issues"
   },
   "homepage": "https://github.com/shikhars/flixpedia#readme",
   "dependencies": {
     "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "purgecss": "^5.0.0"
   }
 }

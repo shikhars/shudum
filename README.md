@@ -17,10 +17,8 @@ Shudum is a blog template inspired by the Netflix Tudum blog
 
 ### Version
 
-- Current Version: v0.0.1
-- Shudum is currently only optimized for desktop
-- Responsive design coming soon
-- Note: This is a pre-release version. This version should not be considered production-ready.
+- Current Version: v0.1.0
+- Shudum was built with responsive design in mind and works well on most modern browsers and devices.
 
 
 ### Links
@@ -42,6 +40,8 @@ Shudum is built with Sass
 
 ### Build
 
-- Parcel: v2.8.3
-- Build: npm run build
-- Start: npm start
+- npm run watch-sass to watch for changes to sass files
+- npm run build-css to build final compiled css after running purgecss
+
+### Note
+A previous version of Shudum used ParcelJS for the build process. Since version 0.1.0 Shudum uses npm scripts to watch for sass changes and build the final compiled css after running purgecss.
