@@ -26,9 +26,9 @@
   "author": "Shikhar Srivastava",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shikhars/flixpedia/issues"
+    "url": "https://github.com/shikhars/shudum/issues"
   },
-  "homepage": "https://github.com/shikhars/flixpedia#readme",
+  "homepage": "https://github.com/shikhars/shudum",
   "devDependencies": {
     "dart-sass": "^1.25.0",
     "purgecss": "^5.0.0"
