@@ -43,3 +43,7 @@ Shudum is built with Sass
 
 ### Note
 A previous version of Shudum used ParcelJS for the build process. Since version 0.1.0 Shudum uses npm scripts to watch for sass changes and build the final compiled css after running purgecss.
+
+### Licence
+
+Shudum is distributed under the MIT Licence. Please read the attached licence document.
